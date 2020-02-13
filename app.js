@@ -31,7 +31,7 @@ app.post('/project/get-work',(req,res)=>{
         }
         else{
             res.status(200).json({
-                message:"Name nserted"
+                message:"Name inserted"
               });
         }
     });
