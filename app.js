@@ -37,4 +37,7 @@ app.post('/project/get-work',(req,res)=>{
     });
 });
 
+app.get('/',(req,res)=>{
+res.send('Hello World');
+});
 
